@@ -1,0 +1,3 @@
+User-agent: *
+Sitemap: https://1-win.su/sitemap.xml
+Host: https://1-win.su/

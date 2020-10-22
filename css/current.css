@@ -1,0 +1,36 @@
+:root {
+    --main-color: #E02298;
+    --secondary-color: #3D3495;
+    --main-gradient: linear-gradient(90deg, var(--main-color) 0.99%, var(--secondary-color) 100%);
+}
+
+.cover_current {
+    z-index: -1 !important;
+    position: absolute !important;
+    right: 140px !important;
+    max-width: 860px !important;
+    top: 50% !important;
+    transform: translate(0, -50%) !important;
+    left: unset !important;
+    margin: 0 !important;
+}
+
+.b-footer__logo{
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    padding: 20px 0;
+}
+.b-footer__logo img{
+    height: 35px;
+}
+@media(max-width: 1300px){
+    .cover_current{
+        max-width: 610px !important;
+        right: -60px !important;
+    }
+    .landing .landing-content[data-v-726f8c13]{
+        margin-bottom: 860px;
+    }
+}
